@@ -1,0 +1,22 @@
+{
+  "name": "ssmr9dt/sambalogparser",
+  "description": "Samba log parser",
+  "type": "library",
+  "version": "v1.0",
+  "license": "MIT",
+  "require": {
+      "php": ">=5.0.0"
+  },
+  "authors": [
+    {
+      "name": "Stoshi Murakami",
+      "email": "ssmr9dt@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "src/SambaLogParser.class.php"
+    ]
+  }
+}
